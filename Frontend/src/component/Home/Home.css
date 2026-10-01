@@ -1,0 +1,94 @@
+.banner{
+    background-image:linear-gradient(to Right, #635dc0, #3027ae);
+  
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+   
+}
+.banner h1{
+    margin: 5vmax;
+    font: 600 2.5vmax "Roboto";
+}
+.banner p{
+    font: 300 2.5vmax "lucida sans";
+}
+
+.banner button{
+    margin-bottom: 5vmax;
+    border: 1px solid rgb(250, 246, 246);
+    cursor: pointer;
+    background-color: white;
+    border-radius: 0%;
+    width: 9vmax;
+    padding: 1vmax;
+    transition: all 0.5s;
+    font: 500 1.5vmax "Roboto";
+   
+    
+}
+.banner a button:hover{
+   background-color:  rgb(95, 8, 207);
+   color: white;
+   
+}
+.banner::after{
+    content: '';
+    width: 100vw;
+    height: 100vmin;
+   background-color: rgb(248, 251, 255);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  clip-path: polygon(100% 84.5%, 100% 76.5%, 99.5% 100%, 0.45% 100%);
+    max-width: 100vmax;
+}
+
+.HomeHeading{
+    text-align: center;
+    font-size: 1.4vmax;
+    font-family: "Roboto";
+    border-bottom:1px solid rgb(123, 114, 114) ;
+    width: 20vmax;
+    padding: 1vmax;
+    margin: 5vmax auto;
+    color: rgb(104, 106, 108);
+}
+.productCard{
+
+    padding-left: 12px;
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.productCard .rating{
+    
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  
+  color: tomato;
+}
+
+.productCard.rating svg {
+  color: tomato;
+}
+
+.productCard.rating span {
+  margin-left: 10px;
+}
+
+
+
+

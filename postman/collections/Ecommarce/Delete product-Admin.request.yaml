@@ -1,0 +1,9 @@
+$kind: http-request
+name: Delete product--Admin
+description: ""
+url: http://localhost:3000/api/v1/product/6a6ea99cf162ae7c87faaa1e
+method: GET
+body:
+  type: json
+  content: ""
+order: 3993459672908445

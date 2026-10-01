@@ -1,0 +1,17 @@
+$kind: http-request
+name: Read product
+description: ""
+url: http://localhost:3000/api/v1/login
+method: POST
+body:
+  type: json
+  content: "   {\r
+
+    \ \r
+
+    \  \"email\": \"user@kmail.com\",\r
+
+    \  \"password\": \"12345678\"\r
+
+    }"
+order: 1785636760954

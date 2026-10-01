@@ -1,0 +1,58 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/v1/order/new
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \"shippingInfo\":\r
+
+    {\r
+
+    \    \"address\":\"khapri\",\r
+
+    \    \"city\":\"raipur\",\r
+
+    \    \"state\":\"cg\",\r
+
+    \    \"pinCode\":490042,\r
+
+    \    \"phone\":9399416191\r
+
+    \r
+
+    \r
+
+    },\r
+
+    \"orderItems\":\r
+
+    {\r
+
+    \    \"name\":\"mobile\",\r
+
+    \    \"price\":20000,\r
+
+    \    \"quantity\":1,\r
+
+    \    \"image\":\"product image\",\r
+
+    \    \"product\":\"6a8b8a6657642ccc6d6c23e4\"\r
+
+    },\r
+
+    \"status\":\"succeed\",\r
+
+    \"itemsPrice\":20000,\r
+
+    \"taxPrice\":21000,\r
+
+    \"shippingPrice\":30000,\r
+
+    \"totalPrice\":220000\r
+
+    }\r
+
+    \ "
+order: 1787826018340

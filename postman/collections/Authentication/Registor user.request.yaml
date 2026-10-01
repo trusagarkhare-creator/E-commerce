@@ -1,0 +1,16 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/v1/registor
+method: POST
+body:
+  type: json
+  content: "   {\r
+
+    \ \"name\":\"sagar Khare\",\r
+
+    \  \"email\": \"tsagarkhare@gmail.com\",\r
+
+    \  \"password\": \"teraprojecthai\"\r
+
+    }"
+order: 2662758101448900

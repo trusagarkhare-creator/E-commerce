@@ -1,0 +1,9 @@
+/* Navbar links ke beech space */
+.overlay-navbar a {
+  margin: 0 15px;
+}
+
+/* Icons ke beech space */
+.overlay-navbar svg {
+  margin: 0 8px;
+}

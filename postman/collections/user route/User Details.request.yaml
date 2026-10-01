@@ -1,0 +1,6 @@
+$kind: http-request
+name: User Details
+description: ""
+url: http://localhost:3000/api/v1/me
+method: GET
+order: 4204648189509039

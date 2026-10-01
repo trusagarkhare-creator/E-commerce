@@ -1,0 +1,19 @@
+$kind: http-request
+name: change user role --admin
+description: ""
+url: http://localhost:3000/api/v1/admin/update/user/6a82b5dc9f54675fda5a8d3d
+method: PUT
+body:
+  type: json
+  content: "\r
+
+    {\r
+
+    \    \"name\":\"yogesh\",\r
+
+    \    \"email\":\"khareyogesh08@gmail.com\",\r
+
+    \    \"role\":\"admin\"\r
+
+    }"
+order: 3871152713991322

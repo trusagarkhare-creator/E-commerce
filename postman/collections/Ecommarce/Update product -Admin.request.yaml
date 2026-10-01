@@ -1,0 +1,37 @@
+$kind: http-request
+name: Update product --Admin
+description: ""
+url: http://localhost:3000/api/v1/product/6a6f79c0932d4376c6372092
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \     \r
+
+    \   \r
+
+    \        \"name\": \"samsung\",\r
+
+    \        \"description\": \"this is a sample product\",\r
+
+    \        \"price\": 12000,\r
+
+    \        \r
+
+    \        \"image\": \r
+
+    \            {\r
+
+    \                \"product_id\": \"product\",\r
+
+    \                \"url\": \"this is a sample image\"\r
+
+    \               \r
+
+    \            }\r
+
+    \        \r
+
+    }"
+order: 3882428295314630

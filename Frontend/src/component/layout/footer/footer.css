@@ -1,0 +1,104 @@
+#footer {
+    margin-top: 10vmax;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vmax;
+  background-color: #1a1a1a;
+  color: white;
+  gap: 2rem;
+}
+
+/* Left Section */
+.leftfooter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 30%;
+}
+
+.leftfooter h4 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.leftfooter p {
+  font-size: 17px;
+  color: #ccc;
+  margin: 0;
+}
+
+.leftfooter img {
+  width: 10vmax;
+  margin:1vmax ;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.leftfooter img:hover {
+  transform: scale(1.05);
+}
+
+/* Middle Section */
+.midfooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  text-align: center;
+}
+
+.midfooter h1 {
+  font-size: 2rem;
+  color: #db4104;
+  margin: 0 0 0.5rem;
+}
+
+.midfooter p {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin: 0;
+}
+
+/* Right Section */
+.rightfooter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+  width: 30%;
+}
+
+.rightfooter a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.rightfooter a:hover {
+  color: #00bcd4;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  #footer {
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .leftfooter,
+  .midfooter,
+  .rightfooter {
+    width: 100%;
+    align-items: center;
+  }
+
+  .rightfooter {
+    align-items: center;
+  }
+}

@@ -1,0 +1,38 @@
+import React, { Fragment } from 'react'
+   import {CgMouse} from "react-icons/cg"
+   import "./Home.css"
+   import Product from "./product.jsx"
+
+   const product =
+   {
+    name:"T-Shirt",
+    images:[{url: "data:image/jpeg;base64,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"}],
+    price:300,
+    _id:"sagarkhare"
+   }
+function Home() {
+  return (
+    <>
+    <div className="banner" >
+
+     <p>Welcome to E-commerce</p>
+     <h1>FIND AMAZING PRODUCTS BELOW</h1>
+     <a href="#container">
+      <button>Scroll <CgMouse/> </button>
+     </a>
+     
+</div>
+<h2 className="HomeHeading">Featured Products</h2>
+<div className="container" id = "container">
+<Product product={product}/>
+
+
+
+</div>
+      
+    </>
+  )
+}
+
+export default Home
+

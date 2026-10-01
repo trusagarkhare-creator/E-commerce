@@ -1,0 +1,6 @@
+$kind: http-request
+name: get single order
+description: ""
+url: http://localhost:3000/api/v1/order/6a8ed8057a8807c226e470bf
+method: GET
+order: 2328043848121010

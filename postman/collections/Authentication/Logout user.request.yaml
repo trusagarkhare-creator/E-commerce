@@ -1,0 +1,17 @@
+$kind: http-request
+name: Logout user
+description: ""
+url: http://localhost:3000/api/v1/logout
+method: POST
+body:
+  type: json
+  content: "   {\r
+
+    \ \r
+
+    \  \"email\": \"tsagarkhare@gmail.com\",\r
+
+    \  \"password\": \"teraprojecthai\"\r
+
+    }"
+order: 2785315437120690

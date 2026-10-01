@@ -1,0 +1,6 @@
+$kind: http-request
+name: get all order --admin
+description: ""
+url: http://localhost:3000/api/v1/orders
+method: GET
+order: 485759962827238

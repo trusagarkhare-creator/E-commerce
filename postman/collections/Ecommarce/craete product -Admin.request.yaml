@@ -1,0 +1,29 @@
+$kind: http-request
+name: craete product --Admin
+description: create product
+url: http://localhost:3000/api/v1/products/new
+method: POST
+body:
+  type: json
+  content: "\r
+
+    {\r
+
+    \    \"name\":\"apple\",\r
+
+    \    \"description\":\"this is a sample product\",\r
+
+    \    \"price\":1200,\r
+
+    \    \"image\":{\r
+
+    \        \"product_id\":\"product\",\r
+
+    \        \"url\":\"this is a sample image\"\r
+
+    \    },\r
+
+    \    \"category\":\"laptop\"\r
+
+    }"
+order: 1354432689930688

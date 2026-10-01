@@ -1,0 +1,15 @@
+$kind: http-request
+name: delete reviews
+description: ""
+url: http://localhost:3000/api/v1/review?productId=6a8b8a6657642ccc6d6c23e4&id=6a8b8df357642ccc6d6c23e7
+method: DELETE
+queryParams:
+  - key: productId
+    value: 6a8b8a6657642ccc6d6c23e4
+    disabled: false
+    description: ""
+  - key: id
+    value: 6a8b8df357642ccc6d6c23e7
+    disabled: false
+    description: ""
+order: 1787745323672
